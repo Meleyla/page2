@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Reanálisis: virus en camote"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+  page-footer:
+    center: "Meleyla Soroe Torres · UNTRM"
+
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+execute:
+  warning: false
+  message: false
